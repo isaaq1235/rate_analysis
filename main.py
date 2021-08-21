@@ -16,7 +16,7 @@ st.title("Rate Analysis")
 # pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
 
 with st.expander("Expand Rate Data"):
-    st.markdown('<iframe src="http://127.0.0.1:8887/output%20(1).html" width="700" height="1000" type="application/pdf"></iframe>', unsafe_allow_html=True)
+    st.markdown('<iframe src="http://192.168.0.180:8887/output%20(1).html" width="700" height="1000" type="application/pdf"></iframe>', unsafe_allow_html=True)
 
 # displayPDF("http://127.0.0.1:8887/CivilDAR_2019_Vol_1.pdf")
 
