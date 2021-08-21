@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import base64
 
+st.image("trginslogo.png")
+
 st.title("Rate Analysis")
 
 # df = pd.read_excel('Concrete Itms - Foundation, Column, Slab & Beam, Walls Works (1).xls')
